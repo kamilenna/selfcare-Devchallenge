@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="assets/favicon.ico" type="image/x-icon">
+    <title>Selfcare</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@400;700;900&display=swap" rel="stylesheet">
+
+    <script src="https://kit.fontawesome.com/40a32dcdbe.js" crossorigin="anonymous"></script>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+<body onload=inicializarLoja()>
+    <nav>
+        <div id="logo">
+            <img src="assets/logo.png" alt="Logo da Selfcare">
+        </div>
+        <ul>
+            <li>
+                <a href="#">
+                    <i class="fa-solid fa-magnifying-glass"></i>
+                </a>
+            </li>
+            <li>
+                <a href="#">
+                    <i class="fa-solid fa-user"></i>
+                </a>
+            </li>
+            <li>
+                <a href="#">
+                    <i class="fa-solid fa-cart-shopping"></i>
+                </a>
+            </li>
+        </ul>
+    </nav>
+    <header>
+        <img src="assets/banner.png" alt="Banner de oferta">
+    </header>
+    <main>
+        <div class="header-main">
+            <h3>PROMOÇÃO</h3>
+            <P>9 produtos</P>
+        </div>
+        <hr>
+            <section id="produtos"></section>
+    </main>
+    <footer>
+        <hr>
+        <section>
+            <ul class="links">
+                <li>Contato</li>
+                <li>Termos de serviço</li>
+                <li>Política de privacidade</li>
+                <li>Cancelamento, troca e reembolso</li>
+            </ul>
+            <form action="">
+                <label for="news">Newsletter</label>
+                <div>
+                    <input type="email" name="newsletter" id="news" placeholder="Digite seu melhor e-mail">
+                    <button type="submit">Inscrever</button>
+                </div>
+            </form>
+        </section>
+        <hr>
+        <div id="footer-icons">
+            <ul class="redes">
+                <li>
+                    <a href="#">
+                        <i class="fa-brands fa-instagram-square"></i>
+                    </a>
+                </li>
+                <li>
+                    <a href="">
+                        <i class="fa-brands fa-facebook-square"></i>
+                    </a>
+                </li>
+            </ul>
+    
+            <ul class="pagamento">
+                <li><img src="assets/mastercard.png" alt="Icone da empresa mastercard"></li>
+                <li><img src="assets/paypal.png" alt="Icone da carteira digital Paypal"></li>
+                <li><img src="assets/Visa.png" alt="Icone da empresa Visa"></li>
+            </ul>
+        </div>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
