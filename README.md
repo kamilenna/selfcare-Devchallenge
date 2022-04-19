@@ -7,9 +7,6 @@
   </p>
 </p>
 
-# Devchallenge 
- permite que você evolua suas skills como programador!
-
 # Desafio
 Construir uma página para exibição de produtos de uma loja online chamada <strong>selfcare</strong>. <br><br>
 <a href="https://github.com/thaysagomes/selfcare">Link para o repositório do desafio</a>
